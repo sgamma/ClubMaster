@@ -75,6 +75,14 @@ body {
 	text-shadow: 0 1px 1px rgba(255,255,255,0.6);
 }
 
+.container > section.dataEntry {
+	width: 70%;
+	margin: 20px auto 20px;
+	padding: 20px;
+	background-color: #ddd;
+	border-radius: 8px;
+}
+
 .support-note span{
 	color: #ac375d;
 	font-size: 16px;

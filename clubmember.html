@@ -23,29 +23,66 @@
   <section class="dataEntry">
     <form role="form">
       <div class="form-group">
-        <label for="exampleInputEmail1">Member</label>
+        <label for="name">Cliente</label>
         <div class="row">
-          <div class="col-xs-5">
-            <input type="text" class="form-control input-lg" id="name" placeholder="Name">
+          <div class="col-xs-6">
+            <input type="text" class="form-control input-lg" id="name" placeholder="Mario">
+            <span class="help-block">Il nome del cliente</span>
           </div>
-          <div class="col-xs-7">
-            <input type="text" class="form-control input-lg" id="surname" placeholder="Surname">
+          <div class="col-xs-6">
+            <input type="text" class="form-control input-lg" id="surname" placeholder="Bianchi">
+            <span class="help-block">Il cognome del cliente</span>
           </div>
         </div>
-        <span class="help-block">Member's name and surname.</p>
+        <div class="row">
+          <div class="col-xs-6">
+            <input type="email" class="form-control input-lg" id="email" placeholder="mariobianchi@indirizzo.it">
+            <span class="help-block">eMail del cliente</span>
+          </div>
+          <div class="col-xs-6">
+            <input type="tel" class="form-control input-lg" id="mobile" placeholder="3301234567" maxlength="10">
+            <span class="help-block">Cellulare del cliente</span>
+          </div>
+        </div>
       </div>
       <div class="form-group">
-        <label for="email">EMail</label>
-        <input type="email" class="form-control input-lg" id="email" placeholder="john.doe@anonymous.com">
-        <p class="help-block">Member's email address.</p>
+        <label for="name">Abbonamento</label>
+        <div class="row">
+          <div class="col-xs-6">
+            <select class="form-control input-lg">
+              <option>Annuale</option>
+              <option>Semestrale</option>
+              <option>Trimestrale</option>
+              <option>Mensile</option>
+              <option>Punti</option>
+              <option>Prova</option>
+            </select>
+            <span class="help-block">Tipologia</span>
+          </div>
+          <div class="col-xs-3">
+            <input type="date" class="form-control input-lg" id="dataAbbonamento" placeholder="dd/mm/aaaa">
+            <span class="help-block">Inizio abbonamento</span>
+          </div>
+          <div class="col-xs-3">
+            <p class="form-control-static"> wqwq</p>
+            <span class="help-block">Scadenza abbonamento</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6">
+          </div>
+          <div class="col-xs-3">
+            <input type="date" class="form-control input-lg" id="dataAbbonamento" placeholder="dd/mm/aaaa">
+            <span class="help-block">Iscrizione</span>
+          </div>
+          <div class="col-xs-3">
+            <p class="form-control-static"> wqwqw</p>
+            <span class="help-block">Scadenza iscrizione</span>
+          </div>
+        </div>
       </div>
-      <div class="form-group">
-        <label for="date">Birthdate</label>
-        <input type="date" class="form-control input-lg" id="date" placeholder="20/10/1978">
-        <p class="help-block">Member's birthdate.</p>
-      </div>
-      <button type="submit" class="btn btn-primary">Register member</button>
-      <button type="submit" class="btn btn-danger">Cancel registration</button>
+      <button type="submit" class="btn btn-primary">Registra cliente</button>
+      <button type="submit" class="btn btn-danger">Annulla registrazione</button>
     </form>
   </section>
 </div>
